@@ -126,3 +126,52 @@ section{
     margin-bottom: 2rem;
     line-height: 1.2;
 }
+
+.about-text{
+    max-width: 65ch;
+    color: var(--secondary-text);
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.skills-grid{
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    gap: 2rem;
+}
+
+.skill-card{
+    background: var( --secondary-background);
+    padding: 2rem;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-md);
+}
+
+.skill-card h3{
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.skill-card ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.skill-card li{
+    background: var(--primary-background);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-lg);
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.skill-card li:hover{
+    background: var(--accent);
+    transform: translateY(-2px);
+    scale: 1.03;
+    color: var(--primary-text);
+}
