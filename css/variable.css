@@ -1,0 +1,22 @@
+:root{
+
+    /* Colors */
+    --primary-background: #0B0F19;
+    --secondary-background: #151A28;
+
+    --primary-text: #FFFFFF;
+    --secondary-text: #B8C0CC;
+
+    --accent: #4F8CFF;
+
+    /* Border */
+    --border-color: #2A3244;
+
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+
+    /* Transition */
+    --transition: 0.3s ease;
+}

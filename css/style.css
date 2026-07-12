@@ -1,0 +1,110 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 0;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: var(--primary-text);
+    transition: var(--transition);
+}
+
+.navbar ul a:hover{
+    color: var(--accent);
+}
+
+.navbar .logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.github-btn{
+    padding: 0.7rem 1.2rem;
+    border: 1px solid var(--accent);
+    border-radius: var(--radius-md);
+    transition: var(--transition);
+}
+
+.github-btn:hover{
+    background-color: var(--accent);
+    color: var(--primary-text);
+}
+
+#hero{
+    padding: 5rem 0;
+}
+
+#hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.hero-content{
+    flex: 1;
+}
+
+.hero-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content h1{
+    font-size: 4rem;
+    line-height: 1.1;
+    margin: 0.5rem 0;
+}
+
+.role{
+    font-size: 1.3rem;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.intro{
+    color: var(--secondary-text);
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.9rem 1.6rem;
+}
+
+.btn-primary{
+    background: var(--accent);
+    color: var(--primary-text);
+    transition: var(--transition);
+}
+
+.btn-primary:hover{
+    opacity: 0.8;
+}
+
+.btn-secondary{
+    border: 1px solid var(--accent);
+    color: var(--primary-text);
+    margin-left: 1rem;
+    transition: var(--transition);
+}
+
+.btn:hover{
+    background: var(--accent);
+}
+
+.hero-image img{
+    width: 350px;
+    border-radius: 50%;
+}
