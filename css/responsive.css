@@ -43,6 +43,10 @@
         gap: 1rem;
     }
 
+    .navbar{
+        display: none;
+    }
+
     .btn{
         width: 100%;
         text-align: center;
