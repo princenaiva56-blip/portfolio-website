@@ -34,6 +34,35 @@
     .skills-grid, .projects-grid{
         grid-template-columns: 1fr;
     }
+
+    .menu-toggle{
+        display: block;
+    }
+
+     .navbar{
+        position: relative;
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+   .nav-link.display{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--primary-background);
+        padding: 1.5rem 0;
+        text-align: center;
+        box-shadow: var(--shadow-md);
+   }
+
+    .github-btn{
+        display: none;
+    }
     
 }
 
@@ -43,9 +72,6 @@
         gap: 1rem;
     }
 
-    .navbar{
-        display: none;
-    }
 
     .btn{
         width: 100%;
@@ -67,4 +93,6 @@
     .container{
         padding: 0 2rem;
     }
+
+
 }

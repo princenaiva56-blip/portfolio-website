@@ -16,7 +16,7 @@ header{
     padding: 0.9rem 0;
 }
 
-.navbar ul{
+.nav-link{
     list-style: none;
     display: flex;
     gap: 2rem;
@@ -51,6 +51,15 @@ header{
 .github-btn:hover{
     background-color: var(--accent);
     color: var(--primary-text);
+}
+
+.menu-toggle{
+    display: none;
+    border: none;
+    background: transparent;
+    color: var(--primary-text);
+    font-size: 2rem;
+    cursor: pointer;
 }
 
 #hero{
